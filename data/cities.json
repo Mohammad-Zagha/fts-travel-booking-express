@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "name": "Paris",
+    "description": "The capital city of France, known for its iconic landmarks, rich culture, and history."
+  },
+  {
+    "id": 2,
+    "name": "New York",
+    "description": "The city that never sleeps, offering a vibrant atmosphere, shopping, and entertainment."
+  },
+  {
+    "id": 3,
+    "name": "Tokyo",
+    "description": "The bustling capital of Japan, known for its advanced technology, shopping, and unique blend of old and new."
+  },
+  {
+    "id": 4,
+    "name": "London",
+    "description": "The capital of England, famous for its historical landmarks, museums, and theaters."
+  },
+  {
+    "id": 5,
+    "name": "Rome",
+    "description": "The capital of Italy, known for its ancient history, stunning architecture, and delicious food."
+  }
+]

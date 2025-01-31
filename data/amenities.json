@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "name": "Free Wi-Fi",
+    "description": "Stay connected with high-speed internet throughout the room."
+  },
+  {
+    "id": 2,
+    "name": "Air Conditioning",
+    "description": "Maintain the perfect room temperature with air conditioning."
+  },
+  {
+    "id": 3,
+    "name": "Mini Bar",
+    "description": "A fully stocked mini bar with snacks and beverages."
+  },
+  {
+    "id": 4,
+    "name": "Flat-Screen TV",
+    "description": "Enjoy your favorite shows on a large flat-screen television."
+  },
+  {
+    "id": 5,
+    "name": "Coffee Maker",
+    "description": "Brew your own coffee with an in-room coffee maker."
+  },
+  {
+    "id": 6,
+    "name": "Safe",
+    "description": "Store your valuables in a secure in-room safe."
+  },
+  {
+    "id": 7,
+    "name": "Complimentary Toiletries",
+    "description": "A selection of toiletries including shampoo, conditioner, and soap."
+  },
+  {
+    "id": 8,
+    "name": "Bathtub",
+    "description": "Relax in a spacious bathtub with hot water available."
+  },
+  {
+    "id": 9,
+    "name": "Desk and Chair",
+    "description": "Work in comfort with a dedicated desk and chair."
+  },
+  {
+    "id": 10,
+    "name": "Slippers",
+    "description": "Enjoy the comfort of complimentary slippers."
+  }
+]

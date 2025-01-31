@@ -1,0 +1,63 @@
+[
+  {
+    "roomId": 101,
+    "roomNumber": 1,
+    "roomPhotoUrl": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/179049179.jpg?k=154aef35279ec3534f3b44d33f63cde88f9e7469a7c2154e97d4158a18e628ac&o=&hp=1",
+    "roomType": "Ocean View Suite",
+    "capacityOfAdults": 2,
+    "capacityOfChildren": 2,
+    "roomAmenities": [
+      {
+        "id": 1,
+        "name": "Free Wi-Fi",
+        "description": "High-speed internet access"
+      },
+      {
+        "id": 2,
+        "name": "Air Conditioning",
+        "description": "Cool and comfortable air conditioning"
+      }
+    ],
+    "price": 500.0,
+    "availability": true
+  },
+  {
+    "roomId": 102,
+    "roomNumber": 2,
+    "roomPhotoUrl": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/457524211.jpg?k=28e15c26dd1f11266d9bd21757d79b706b5a775c3258ab4a4c608fe3eb642aba&o=&hp=1",
+    "roomType": "Garden View Room",
+    "capacityOfAdults": 2,
+    "capacityOfChildren": 1,
+    "roomAmenities": [
+      {
+        "id": 3,
+        "name": "TV",
+        "description": "Flat-screen TV with cable channels"
+      },
+      {
+        "id": 4,
+        "name": "Mini Fridge",
+        "description": "Fully stocked mini-fridge"
+      }
+    ],
+    "price": 200.0,
+    "availability": true
+  },
+  {
+    "roomId": 103,
+    "roomNumber": 3,
+    "roomPhotoUrl": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/486145081.jpg?k=e8c95b71501aaaae48bbcebb7ac8ae37c892873a4be235240cc12c31168425c3&o=&hp=1",
+    "roomType": "Standard Room",
+    "capacityOfAdults": 2,
+    "capacityOfChildren": 0,
+    "roomAmenities": [
+      {
+        "id": 5,
+        "name": "Heating",
+        "description": "Adjustable heating system"
+      }
+    ],
+    "price": 150.0,
+    "availability": false
+  }
+]
