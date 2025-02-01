@@ -1,15 +1,5 @@
 [
   {
-    "id": 1,
-    "name": "Paris",
-    "description": "The capital city of France, known for its iconic landmarks, rich culture, and history."
-  },
-  {
-    "id": 2,
-    "name": "New York",
-    "description": "The city that never sleeps, offering a vibrant atmosphere, shopping, and entertainment."
-  },
-  {
     "id": 3,
     "name": "Tokyo",
     "description": "The bustling capital of Japan, known for its advanced technology, shopping, and unique blend of old and new."
@@ -23,5 +13,10 @@
     "id": 5,
     "name": "Rome",
     "description": "The capital of Italy, known for its ancient history, stunning architecture, and delicious food."
+  },
+  {
+    "id": 6,
+    "name": "Paris",
+    "description": "good place"
   }
 ]
