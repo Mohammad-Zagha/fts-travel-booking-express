@@ -1,32 +1,10 @@
 [
   {
-    "roomId": 201,
-    "roomNumber": 101,
-    "roomPhotoUrl": "https://example.com/room1.jpg",
-    "roomType": "Deluxe Suite",
-    "capacityOfAdults": 2,
-    "capacityOfChildren": 2,
-    "amenities": [
-      {
-        "id": 1,
-        "name": "Free Wi-Fi",
-        "description": "High-speed internet access"
-      },
-      {
-        "id": 2,
-        "name": "Air Conditioning",
-        "description": "Individually controlled air conditioning"
-      }
-    ],
-    "price": 250.0,
-    "availability": true
-  },
-  {
     "roomId": 202,
     "roomNumber": 102,
     "roomPhotoUrl": "https://example.com/room2.jpg",
-    "roomType": "Standard Room",
-    "capacityOfAdults": 2,
+    "roomType": "Standard",
+    "capacityOfAdults": 20,
     "capacityOfChildren": 1,
     "amenities": [
       {
@@ -35,7 +13,7 @@
         "description": "Includes international channels"
       }
     ],
-    "price": 150.0,
+    "price": 150,
     "availability": true
   },
   {
@@ -57,7 +35,7 @@
         "description": "Private balcony with sea view"
       }
     ],
-    "price": 350.0,
+    "price": 350,
     "availability": false
   },
   {
@@ -74,7 +52,7 @@
         "description": "Includes a microwave and fridge"
       }
     ],
-    "price": 400.0,
+    "price": 400,
     "availability": true
   },
   {
@@ -96,7 +74,7 @@
         "description": "Netflix and streaming services included"
       }
     ],
-    "price": 500.0,
+    "price": 500,
     "availability": true
   },
   {
@@ -113,7 +91,7 @@
         "description": "Infinity pool with ocean view"
       }
     ],
-    "price": 1000.0,
+    "price": 1000,
     "availability": false
   },
   {
@@ -130,7 +108,7 @@
         "description": "Complimentary coffee and tea"
       }
     ],
-    "price": 120.0,
+    "price": 120,
     "availability": true
   },
   {
@@ -147,41 +125,7 @@
         "description": "Round-the-clock dining services"
       }
     ],
-    "price": 220.0,
+    "price": 220,
     "availability": false
-  },
-  {
-    "roomId": 209,
-    "roomNumber": 109,
-    "roomPhotoUrl": "https://example.com/room9.jpg",
-    "roomType": "Twin Room",
-    "capacityOfAdults": 2,
-    "capacityOfChildren": 1,
-    "amenities": [
-      {
-        "id": 12,
-        "name": "Laundry Service",
-        "description": "Same-day laundry and dry cleaning"
-      }
-    ],
-    "price": 180.0,
-    "availability": true
-  },
-  {
-    "roomId": 210,
-    "roomNumber": 110,
-    "roomPhotoUrl": "https://example.com/room10.jpg",
-    "roomType": "Penthouse Suite",
-    "capacityOfAdults": 6,
-    "capacityOfChildren": 4,
-    "amenities": [
-      {
-        "id": 13,
-        "name": "Private Chef",
-        "description": "Exclusive private dining experience"
-      }
-    ],
-    "price": 2000.0,
-    "availability": true
   }
 ]

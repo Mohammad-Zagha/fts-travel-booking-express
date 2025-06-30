@@ -70,7 +70,10 @@ const writeJsonData = (fileName, newData, uniqueKey = "id") => {
   fs.writeFileSync(filePath, JSON.stringify(data, null, 2), "utf8");
 };
 
-app.use(cors());
+app.use(cors({
+  origin: "http://localhost:5173",
+  credentials: true,
+}));
 app.use(morgan("dev"));
 app.use(express.json());
 
@@ -244,7 +247,7 @@ app.post("/api/hotels", (req, res) => {
 
 app.put("/api/rooms/:id", (req, res) => {
   const newData = {
-    id: Number(req.params.id),
+    roomId: Number(req.params.id),
     ...req.body,
   };
 
@@ -252,7 +255,7 @@ app.put("/api/rooms/:id", (req, res) => {
   res.json(getJsonData("rooms.json"));
 });
 app.delete("/api/rooms/:id", (req, res) => {
-  deleteJsonData("rooms.json", "id", req.params.id);
+  deleteJsonData("rooms.json", "roomId", req.params.id);
   res.json(getJsonData("rooms.json"));
 });
 app.post("/api/rooms", (req, res) => {
