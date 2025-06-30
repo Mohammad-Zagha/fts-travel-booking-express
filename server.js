@@ -6,7 +6,7 @@ const morgan = require("morgan");
 // const bodyParser = require("body-parser");
 const app = express();
 const PORT = 5000;
-
+app.set('trust proxy', 1); 
 const swaggerJSDoc = require("swagger-jsdoc");
 const swaggerUi = require("swagger-ui-express");
 // Swagger Setup
