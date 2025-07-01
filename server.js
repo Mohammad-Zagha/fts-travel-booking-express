@@ -71,7 +71,7 @@ const writeJsonData = (fileName, newData, uniqueKey = "id") => {
 };
 
 app.use(cors({
-   origin: "*",
+   origin: "https://fts-travel-booking-react-ten.vercel.app",
   credentials: true,
 }));
 app.use(morgan("dev"));
